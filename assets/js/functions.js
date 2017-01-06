@@ -1,7 +1,6 @@
-$(window).load(function() {
-		// Animate loader off screen
-		$(".loader").fadeOut("slow");;
-	});
+$(window).load( function() {
+  $('.overlay').hide();
+});
 
 $( document ).ready(function() {
 
