@@ -1,0 +1,14 @@
+<header style="background-image: url(/assets/img/{{ site.data.settings.bg1 }});">
+  <div class="logo">
+{%include icons/icon-logo.html%}
+
+  </div>
+  <nav>
+    {%for item in site.data.settings.menu %}
+    <a href="{{item.url}}">{{item.name}}</a>
+    {% endfor%}
+
+  </nav>
+  <h1><span>{{ site.data.settings.title }}</span></h1>
+  <p class=kicker>{{ site.data.settings.description }}</p>
+</header>

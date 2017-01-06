@@ -1,0 +1,84 @@
+# General Site settings
+title: Artists Theme
+description: Developer//Designer//Artist
+email: gzidev@gmail.com
+
+#The navigation menu content
+menu:
+  - {name: About Me, url: '#about'}
+  - {name: Works, url: '#work'}
+  - {name: Clients, url: '#clients'}
+  - {name: Contact, url: '#contact'}
+  #You can add your custom menus, for that you have to include the respective custom markup files at _includes and respective custom styles at assets/css
+
+# Site header content
+#--background image(header footer)
+bg1: header.jpg
+bg2: footer.jpg
+ #Include the background-images at assets/img
+
+
+#Menu.item1 section content
+#--image
+avatar: face.jpg
+  #Include the avatar file at assets/img
+#--content
+blurb: <p><strong>Gazi Taufiq is a freshman</strong> of Computer Engineering.
+  He loves to dwell in <a href="//github.com/GaizTaufiqIslam">digital interfaces</a>. He is coding since x came to him from the algerbra world.
+   Its common that for programming you need mathematics.
+  <br> Gazi is dexterous in <a href="//codepen.io/GaizTaufiqIslam">Web Development</a>.
+  He is also a good painter which helped him to Design as a hobbyist but struggles to create <a href="//dribble.com/GaizTaufiqIslam">design projects</a>.
+  He is still learning and trying his best.
+  The neurons in his brain makes bridges among themselves very efficiently and makes beautiful networks.
+  Do come and check those out.</p>
+#Resume/cv content(optional)
+skills:
+  - {name: Communication, value: '7'}
+  - {name: Organization, value: '9'}
+  - {name: Learning, value: '10'}
+  - {name: Planning, value: '8'}
+  - {name: Designing, value: '5'}
+  - {name: programming, value: '10'}
+  #You can add or delete any number of skills you like from here only
+
+
+
+# Menu,item2 section content
+projects:
+  - {name: Typo International, folder: 'Proj1', url: 'work/Proj1.html'}
+  - {name: American Apparel, folder: 'Proj2', url: 'work/Proj2.html'}
+  - {name: Crisp Icons, folder: 'Proj3', url: 'work/Proj3.html'}
+  - {name: Mobile UX/UI, folder: 'Proj4', url: 'work/Proj4.html'}
+  - {name: Fresh beats, folder: 'Proj5', url: 'work/Proj5.html'}
+  - {name: Timeline Page, folder: 'Proj6' ,url: 'work/Proj6.html'}
+  #You can include more projects in the work directory and adding all the necessary images as well as thumbnails in assets/img/work directory at their specific Proj folders
+
+
+
+# Menu.item3 section content
+clients:
+  - {avatar: 'DanCounsell.jpg', logo: 'logo1.png', name: 'Daniel Smith', designation: 'Director od Design,OnToText Ltd.', quote: '<p><strong>It was a roller coaster ride.</strong> Working with a Developer has been never so funnier. Of all the three months of our collaboration with the GziTeam, not only did we complement each other but also constructed together coherently. Always supporting one another. The project we made was a grand success and still helping a few people. Next time I start a project I will surely try to hire a Developer who cracks fewer jokes during serious work hours. </p>'}
+  - {avatar: 'EndaNasution.jpg',  logo: 'logo2.png', name: 'Scott Summers', designation: 'Managing director, Polar and Pengu Revolution', quote: '<p><strong>It rains cats and dogs.</strong> but when we have GziTeam, It rains mosquitos and flies. You my adore the cats and dogs and may as well take care of them. But with this team you can kill as much insects you want and never worry about it. If you do like insects do check this team out.</p>'}
+  - {avatar: 'JinaAnne.jpg', logo: 'logo3.png', name: 'Jenny Johnson', designation: 'Social Media Queen, Quebec Int.', quote: '<p><strong>No words.</strong> Yes, no words can define the abilities and qualities of the GziTeam. You may take it for granted that there are no qualities or abilities in the first place, let alone the admiration. I was just kidding. The Development Team is serious competitor of itself and defeats itself on every occasssions. Well, there you have, a recepie for success.</p>'}
+  - {avatar: 'MatLitherland.jpg', logo: 'logo4.png', name: 'Thomas Paul', designation: 'The Cool Guy, Lorem sorem LLc.', quote: '<p><strong>Styling makes the man perfect,</strong> its a strong faith that lives within me is that all men should show their style. GziTeam just does that very efficiently. From John Lennon to Matt Demon, this team has followed all the trends af the past few decades. Being a trendy guy myself I do strongy recommend to take a few looks at thjis Team. they maybe just what you need.</p>'}
+  #You can provide more content here by adding the avator and logo images at assets/img/clients folder
+
+
+
+#Menu.item4 section content
+
+social:
+  - {icon: 'twitter', link: 'https://twitter.com/gzi_taufq_islm'}
+  - {icon: 'dribble', link: 'https://dribble.com/GaziTaufiqIslam'}
+  - {icon: 'facebook', link: 'https://facebook.com/GaziTaufiqIslam'}
+  - {icon: 'codepen', link: 'https://codepen.io/GaziTaufiqIslam'}
+  - {icon: 'instagram', link: 'https://instagram.com/GaziTaufiqIslam'}
+  #You can include other links by including its icon at _includes/icons directrory with the specific names and links
+
+
+#Acknowledgement Section Content
+credits:
+  - {category: 'Hosting', name: 'Github', link: 'https://pages.github.com/', other: ''}  #provide contents in the 'other' if you feel the need to specify something extra
+  - {category: 'Inspired', name: 'Travis Neilson', link: 'http://travisneilson.com/', other: ''}
+  - {category: 'Icons', name: 'Freepik', link: 'http://www.freepik.com', other: 'from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>' }
+  - {category: 'Authored', name: 'Gazi Taufiq Islam', link: 'https://github.com/GaziTaufiqIslam', other: ''}
