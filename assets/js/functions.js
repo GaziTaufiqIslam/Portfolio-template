@@ -1,3 +1,8 @@
+$(window).load(function() {
+		// Animate loader off screen
+		$(".loader").fadeOut("slow");;
+	});
+
 $( document ).ready(function() {
 
   smoothScroll(300);
